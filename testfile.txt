@@ -1,0 +1,3 @@
+#/usr/bin
+grep -w -f filename string | awk -F '<fsp>' '{print $1};
+
